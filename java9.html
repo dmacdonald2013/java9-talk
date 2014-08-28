@@ -5,15 +5,56 @@
   <title>Java 9 Lightning Talk</title>
   <link rel="stylesheet" href="reveal/css/reveal.min.css">
   <link rel="stylesheet" href="reveal/css/theme/solarized.css" id="theme">
+  <style>
+    .slides img{border:0;}
+  </style>
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
       <section>
-	<h3>Java 9</h3>
-	<img src="spring-boot-logo.png"/>
+	<h1>Java 9</h1>
 	<p>David MacDonald</p>
 	<p>The University of Auckland</p>
+	<!-- JEP & JSR -->
+      </section>
+      <section>
+	<h3>Modules</h3>
+	<h5>Project Jigsaw</h5>
+	<!--
+	    * usually known as Project Jigsaw 
+	    * static modularity ala Maven dependencies
+	    * mailing list indicates JEP201 completed
+	    * aiming to remove JAR hell 'Developer Modules'
+	    * intention to fit in with existing build tools with gradual migration
+	    * move code from classpath to modules
+	    * http://openjdk.java.net/projects/jigsaw/goals-reqs/03 
+	    -->
+      </section>
+      <section>
+	<h3>JSON API</h3>
+      </section>
+      <section>
+	<h3>Process API</h3>
+	<!-- 
+	     STOP USING kill -9
+	  -->
+      </section>
+      <section>
+		 <h3>Performance Improvements</h3>
+		 <ol>
+		   <li>Object Monitor Performance</li>
+		   <li>sjavac</li> <!-- this might help Scala compile times -->
+		   <li>Segmented Code Cache</li>
+		 </ol>
+      </section>
+      <section>
+	<h3>#WTF</h3>
+	<!-- JSR (Java Specification Requests) -->
+	<ol>
+	  <li>HTTP 2 Client</li>
+	  <li>Money and Currency API</li>
+	</ol>
       </section>
     </div>
   </div>
