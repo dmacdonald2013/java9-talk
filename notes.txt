@@ -1,0 +1,23 @@
+* Java 9
+- Java Enhancement Proposals (JEP)
+- 6 included as part of roadmap
+
+* Modules
+- Refactor the JDK source code into modules (but not binaries)
+- Project Jigsaw Lite
+- Mailing lists indicates this has been completed
+- Static modularity, not trying to achieve OSGi-style loading
+- Goals: scalable, security, JAR hell
+
+* JSON API
+- Ability to consume and produce 
+- Streaming JSON with events
+
+* Process API
+- more control over process trees (get pid back, etc.)
+- improves on java7s ability to redirect process streams
+- Windows likely cause of issues here
+
+* JSR = Java Specification Requests
+
+
